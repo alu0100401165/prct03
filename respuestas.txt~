@@ -1,0 +1,148 @@
+PRÁCTICA 3 LPP
+Realizada por: Juan Francisco Chávez González
+-----------------------------------------------------------------------------------------------
+18.- La salida muestra literalmente lo que hayamos introducido entre comillas simple
+(puts 'hola mundo').
+Es la salida estandar, imprimir por pantalla la cadena de caracteres 'Hola Mundo'.
+
+21.- La diferencia es cómo interpreta la máquina ambas opciones, el entrecomillado
+simple lo que hace es mostrar por pantalla de forma literal, el entrecomillado
+doble hace que la máquina interprete los caracteres especiales (character escapes) y el resto de contenido.
+Así, la salida del comando puts '\t\n' => \t\n
+Por otro lado, la salida del mismo comando pero con entrecomillado doble obtenemos:
+=>		(Tabulación y salto de línea).
+
+
+22.- %q{} es un equivalente al usar el entrecomillado simple.
+
+23.- %Q{} es un equivalente a usar el entrecomillado doble.
+
+24.-  "--4--\n--2--\n"
+
+25.-  "--\#{a}--\n--\#{b}--\n"
+
+26.- 
+	·s[0,2]: "he"
+	·s[-1,1]: "o"
+	·s[0,10]: "hello"
+	
+27.-  "hello world"
+
+28.- "..."
+
+29.- "222"
+
+30.- la salida es: ["this", "is", "a", "test"] con que %w supongo que lo que hace es separar
+por palabras dada una frase determinada interpretandola como entrecomillado simple
+
+31.- Lo dicho en el enunciado anterior, la salida esta vez es  ["\\t", "\\n"]
+
+32.- Esta vez detecta las palabras pero en forma de entrecomillado doble  ["\t", "\n"]
+
+33.- Nil es un objeto vacío o nulo.
+
+35.-  [[1, 2], [3, 4]]
+
+36.-  [0, 2, 4]
+
+37.- 
+	·a[1,1]: "b"
+	·a[-2,2]: "d","e"
+	·a[0..2]: "a","b","c"
+	·a[0...1]: "a"
+	·a[-2..-1]: "d","e"
+
+38.- 
+	·a: "A","B","c","d","e"
+	·a: "A","B","C","D","E"
+	·a: 1, 2, 3, "A", "B", "C", "D", "E"
+	·a: 3, "A", "B", "C", "D", "E"
+	·a: 3, "A", "B", "C", "D", "Z"
+	·a: 3, "A", "B", "C"
+	
+39.- 
+	·a: [1, 2, 3]
+	·a: [1, 2, 3, 4, 5]
+	·a: [1, 2, 3, 4, 5, [6, 7, 8]]
+	·a=a+9: Error, can't convert Fixnum into Array
+	
+40.- 
+	· "a","b","c","b","a"
+	· "a","a"
+
+42.- 
+	·a: [1]
+	·a: [1,2,3]
+	·a: [1,2,3,[4,5,6]]
+	·a: [1,2,3,[4,5,6],7,8]
+
+43.- 
+	·c:  [1, 2, 3, 4, 5]
+	·d:  [5, 4, 3, 2, 1]
+	·e:  [2, 3, 4]
+	·f:  [4, 3, 2]
+	
+44.-
+	·a: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	·b: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+	· =>False
+	· =>True
+	· 13579=> 1...10
+	· Error de argumento
+	
+45.- 
+	· =>True
+	· =>True
+	· =>True
+	
+46.- 
+	· => TrueClass
+	· => FalseClass
+	· hello
+	· (nada)
+	· hello
+	
+47.- 
+	· Symbol
+	· False
+	· true
+	· Symbol
+	· true
+	· true
+	
+48.- 
+	·Rub=> nil
+	·RubJava=>nil
+	
+49.- 
+	·"3 rubies"
+	
+50.- 
+	· [4, 5]
+	· 5
+	· [1, 2, 3]
+	
+51.- 
+	· [:b, :a]
+	· [2, 1]
+	· {:b=>2, :c=>3, :a=>1}
+	· {:b=>2, :c=>3, :a=>1}
+	· {:b=>2, :c=>3}
+	· {:a=>1}
+	· {:a=>1}
+
+52.- Pasa el control a un bloque de código definido previamente
+	
+53.- Realiza un hashing para el valor dado
+
+54.- ["hello", "world", "hello", "LPP"]
+
+55.- La primera sentencia se declara un hash con sus respectivas claves, de tal forma que al introducir la clave
+    nos devolvera el valor a la que hace referencia la clave, por ejemplo: c[:a] nos devolvera el valor 1.
+    
+    La segunda sentencia ordenara alfabeticamente las claves del hash y luego recorrera el hash con un iterador y mostrara el
+    contenido del hash por pantalla.
+
+56.- git@github.com:alu0100401165/prct03.git
+
+	 https://github.com/alu0100401165/prct03.git	
